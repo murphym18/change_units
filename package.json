@@ -1,0 +1,14 @@
+{
+  "name": "change-units",
+  "version": "1.0.0",
+  "description": "A function the changes units like from meters to inches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "units"
+  ],
+  "author": "Michael Murphy <murphym18@gmail.com>",
+  "license": "MIT"
+}
