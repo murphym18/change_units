@@ -1,3 +1,6 @@
 const conv = require("./index")
-
-console.log(conv(process.argv[2]))
+try {
+  console.log(conv(process.argv[2]))
+} catch (e) {
+  console.log(e.message)
+}
