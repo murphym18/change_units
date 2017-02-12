@@ -2,7 +2,7 @@ const {merge, addUnit} = require('../util')
 
 const time = merge(
   addUnit(1, "second", "seconds", "sec", "s"),
-  addUnit(60, "minute", "minutes", "min"),
+  addUnit(60, "minute", "minutes", "min", "mins"),
   addUnit(3600, "hour", "hours", "h"),
   addUnit(86400, "day", "days"),
   addUnit(604800, "week", "weeks"),
